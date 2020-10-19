@@ -4,7 +4,7 @@
 - Enda programmet som är tillåtet är VSCode
 - Enda mappen som är tillåten är denna
 - En uppgift i taget, på begränsad tid. Du får inte gå tillbaka.
-- Pusha till git efter varje uppgift. En commit per uppgift.
+- Kör `git add .` och `git commit` efter varje uppgift. En commit per uppgift.
 - Bryt mot reglerna och du får lämna provet
 
 ## Testkör din kod
@@ -16,5 +16,9 @@ Efter varje uppgift:
 ```
 git add .
 git commit -m "Uppgift X"
+```
+
+När du är klar med hela provet:
+```
 git push
 ```
